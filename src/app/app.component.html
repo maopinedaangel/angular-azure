@@ -1,6 +1,6 @@
-<div class="form">
+<div class="div-form">
+  <h2>Registro de libros</h2>
   <form>
-    <div>
       <input class="input" type="text" name="inp-book" [(ngModel)]="book" />
       <select
         class="input"
@@ -13,10 +13,10 @@
       <button class="button" type="submit" (click)="onSubmit($event)">
         Guardar
       </button>
-    </div>
   </form>
 </div>
-<div>
+<div class="div-table">
+  <h2>Libros registrados</h2>
   <table>
     <tr>
       <th>Título</th>
